@@ -1,0 +1,13 @@
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\bin\Debug\netcoreapp3.1\ConsoleShooter.exe
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\bin\Debug\netcoreapp3.1\ConsoleShooter.deps.json
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\bin\Debug\netcoreapp3.1\ConsoleShooter.runtimeconfig.json
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\bin\Debug\netcoreapp3.1\ConsoleShooter.runtimeconfig.dev.json
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\bin\Debug\netcoreapp3.1\ConsoleShooter.dll
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\bin\Debug\netcoreapp3.1\ConsoleShooter.pdb
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\obj\Debug\netcoreapp3.1\ConsoleShooter.csprojAssemblyReference.cache
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\obj\Debug\netcoreapp3.1\ConsoleShooter.AssemblyInfoInputs.cache
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\obj\Debug\netcoreapp3.1\ConsoleShooter.AssemblyInfo.cs
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\obj\Debug\netcoreapp3.1\ConsoleShooter.csproj.CoreCompileInputs.cache
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\obj\Debug\netcoreapp3.1\ConsoleShooter.dll
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\obj\Debug\netcoreapp3.1\ConsoleShooter.pdb
+D:\IT\netcprojects\ConsoleShooter\ConsoleShooter\obj\Debug\netcoreapp3.1\ConsoleShooter.genruntimeconfig.cache
