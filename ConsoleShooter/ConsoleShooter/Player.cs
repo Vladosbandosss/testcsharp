@@ -4,20 +4,23 @@ using System.Text;
 
 namespace ConsoleShooter
 {
-    class Player
+    class Player : Person
     {
-        public Player()
-        {
+        private int _health;
 
+        private int _damageToEnemy;
+
+        public Player(int health) : base(health)
+        {
+            _health = health;
         }
 
-        public void Attack(Enemy enemy)
+        public override void DisplayChoiseInfo()
         {
             Console.WriteLine("выбери оружие которым будем атаковать 1-пистолет,2-автомат");
             string weaponName = Console.ReadLine();
             int choise;
-            bool result= int.TryParse(weaponName, out choise);
-
+            bool result = int.TryParse(weaponName, out choise);
             int damageToEnemy;
 
             if (result)
@@ -39,15 +42,21 @@ namespace ConsoleShooter
                         break;
                 }
 
-                enemy.TakeDamage(damageToEnemy);
-            }
+                _damageToEnemy = damageToEnemy;
 
-            else
-            {
-                Console.WriteLine("ошибка ввода");
             }
-
         }
 
+        public override void Attack(Person person)
+        {
+            DisplayChoiseInfo();
+            person.TakeDamage(_damageToEnemy);
+            person.DisplayChoiseInfo();
+        }
+
+        public override void TakeDamage(int damage)
+        {
+            Health -= damage;
+        }
     }
 }

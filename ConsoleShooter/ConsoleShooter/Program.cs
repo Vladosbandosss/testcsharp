@@ -6,23 +6,16 @@ namespace ConsoleShooter
     {
         static void Main(string[] args)
         {
-
-            bool canFight = true;
+            Console.WriteLine("helo");
+           
 
             Enemy enemy = new Enemy(100);
-            Player player = new Player();
+           Player player = new Player(100);
 
-            while (canFight)
-            {
-                player.Attack(enemy);
+            Arena arena = new Arena(player,enemy);
+            arena.Fight();
+            
 
-                if (enemy.GetHealth() <= 0)
-                {
-                    canFight = false;
-                }
-            }
-
-            Console.WriteLine("Бой окончен");
 
            
             
